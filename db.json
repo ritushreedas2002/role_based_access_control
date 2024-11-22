@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "Bob",
+      "email": "bob@example.com",
+      "role": "client",
+      "status": "Active",
+      "password": "devpass456",
+      "permissions": {
+        "Users": [],
+        "Projects": [
+          "Read",
+          "Delete",
+          "Create",
+          "Update"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "name": "Charlie",
+      "email": "admin@vrvsecurity.com",
+      "role": "admin",
+      "status": "Active",
+      "password": "admin123",
+      "permissions": {
+        "Users": [],
+        "Projects": [
+          "Read",
+          "Delete",
+          "Create",
+          "Update"
+        ]
+      }
+    },
+    {
+      "id": "1732211591364",
+      "name": "Ritushree Das",
+      "email": "developer@vrvsecurity.com",
+      "role": "developer",
+      "status": "Inactive",
+      "password": "dev123",
+      "permissions": {
+        "Users": [],
+        "Projects": [
+          "Read",
+          "Delete"
+        ]
+      }
+    },
+    {
+      "id": "279a",
+      "name": "roofc",
+      "email": "wlkedhc@gmail.com",
+      "role": "developer",
+      "status": "Inactive",
+      "password": "roofpass654",
+      "permissions": {
+        "Users": [],
+        "Projects": [
+          "Read",
+          "Delete"
+        ]
+      }
+    },
+    {
+      "id": "cb1b",
+      "name": "Ritushree",
+      "email": "ritu@gmail.com",
+      "role": "admin",
+      "status": "Active",
+      "password": "adminpass111",
+      "permissions": {
+        "Users": [
+          "Create",
+          "Read",
+          "Update",
+          "Delete"
+        ],
+        "Projects": [
+          "Create",
+          "Read",
+          "Update",
+          "Delete"
+        ]
+      }
+    },
+    {
+      "id": "d2f6",
+      "name": "Ritushree Das",
+      "email": "ritushree@gmail.com",
+      "role": "admin",
+      "status": "Active",
+      "permissions": {
+        "Projects": [
+          "Read",
+          "Create",
+          "Update",
+          "Delete"
+        ]
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "102",
+      "title": "Learning Management System",
+      "description": "A project to manage courses and online learning.\nHello beuty how are youlkjjhjjkkkkjbhbsxjajslmnhjgfjhgyfkjhgxkANZJBahbanjanjzs",
+      "createdAt": "2024-09-20"
+    },
+    {
+      "id": "103",
+      "title": "Customer Support Dashboard",
+      "description": "Creating a dashboard for customer support and tickets.';lkjhg;lkjhgkjhgf;lskjhcgvgsd",
+      "createdAt": "2024-08-15"
+    },
+    {
+      "id": "104",
+      "title": "Inventory Management System",
+      "description": "An application to track and manage inventory in warehouses.",
+      "createdAt": "2024-07-10"
+    },
+    {
+      "id": "105",
+      "title": "Health Tracker App",
+      "description": "A mobile app for tracking health and fitness goals.",
+      "createdAt": "2024-06-01"
+    },
+    {
+      "id": "f827",
+      "title": "TITLE",
+      "description": "HELELOLEELE",
+      "createdAt": "2024-11-22T15:21:12.495Z"
+    }
+  ]
+}
