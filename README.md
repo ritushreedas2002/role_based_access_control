@@ -6,12 +6,30 @@ This project implements a role-based access control (RBAC) system for managing p
 
 ## Features
 
-- Create and manage roles
-- Assign permissions to roles
-- Assign roles to users
-- Enforce access control based on roles and permissions
+- **Role Management**:
+  - Create and manage roles.
+  - Assign permissions to roles.
+  - Assign roles to users.
+  - Enforce access control based on roles and permissions.
 
-## Installation
+- **User Management**:
+  - Viewing all users in a tabular format.
+  - **Searching users by**:
+    - Name
+    - Email
+    - Role
+    - Status
+  - **Filtering users by role**:
+    - Admin
+    - Developer
+    - Client
+  - Adding, editing, and deleting users.
+  - Changing roles and statuses dynamically.
+  
+- **Permission Management**:
+  - Permission is assigned accordingly to the role
+
+## Installaion
 
 To install the project, clone the repository and install the necessary dependencies:
 
@@ -47,9 +65,22 @@ The mock API runs on `http://localhost:5000` and provides the following endpoint
 - `/projects` - projects
 
 
-## Contributing
+## Demo - Admin Dashboard
 
-Please read our contributing guidelines before submitting pull requests.
+Here are some images showcasing our admin dashboard:
+
+### Admin Dashboard Overview
+
+### User Management - Table View
+![User Management Table View](https://firebasestorage.googleapis.com/v0/b/startup-d20cb.appspot.com/o/Screenshot%202024-11-22%20212950.png?alt=media&token=c4a72b9b-8a23-46a3-bc34-cdc8e2630a7e)
+
+### Permissions Management
+![Permissions Management](https://firebasestorage.googleapis.com/v0/b/startup-d20cb.appspot.com/o/Screenshot%202024-11-22%20213004.png?alt=media&token=bebfe2d8-a189-4940-a257-1cbc3e865e94)
+
+### Filtering and Searching Users
+![Filtering and Searching Users](https://firebasestorage.googleapis.com/v0/b/startup-d20cb.appspot.com/o/Screenshot%202024-11-22%20214338.png?alt=media&token=5a9e4909-7a20-4803-b4a1-4874967f5c6a)
+
+
 
 ## License
 
